@@ -271,18 +271,3 @@ Free for educational and commercial use.
 
 ---
 
-## Credits
-
-Design
-
-Inspired by premium conference websites such as:
-
-- Web Summit
-- Adobe MAX
-- Google I/O
-- Apple Events
-
-Developed for:
-
-**Zawadi June Conference**
-Professional & Corporate Workshops
