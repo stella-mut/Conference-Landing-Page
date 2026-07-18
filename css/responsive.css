@@ -1,0 +1,432 @@
+/* ==========================================
+   RESPONSIVE STYLES
+   ZAWADI JUNE CONFERENCE
+========================================== */
+
+/* =========================
+   LARGE DESKTOP
+========================= */
+
+@media (max-width: 1400px) {
+
+    .hero h1{
+        font-size:72px;
+    }
+
+    .hero-card{
+        width:320px;
+    }
+
+}
+
+/* =========================
+   LAPTOP
+========================= */
+
+@media (max-width:1200px){
+
+    .navbar{
+        padding:20px 5%;
+    }
+
+    .hero{
+
+        padding:140px 5% 80px;
+
+        gap:50px;
+
+    }
+
+    .hero h1{
+
+        font-size:64px;
+
+    }
+
+    .hero p{
+
+        font-size:20px;
+
+    }
+
+    .cards{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .speaker-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .venue-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .venue-grid img{
+
+        max-height:500px;
+
+        object-fit:cover;
+
+    }
+
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width:992px){
+
+    section{
+
+        padding:90px 0;
+
+    }
+
+    section h2{
+
+        font-size:40px;
+
+        margin-bottom:50px;
+
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        text-align:center;
+
+    }
+
+    .hero-content{
+
+        max-width:100%;
+
+    }
+
+    .hero h1{
+
+        font-size:56px;
+
+    }
+
+    .hero p{
+
+        margin:0 auto 35px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hero-card{
+
+        width:100%;
+
+        max-width:500px;
+
+    }
+
+    .timeline::before{
+
+        left:25px;
+
+    }
+
+    .timeline-item{
+
+        width:100%;
+
+        margin-left:50px !important;
+
+    }
+
+}
+
+/* =========================
+   MOBILE NAVIGATION
+========================= */
+
+@media (max-width:768px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        position:relative;
+
+    }
+
+    .nav-links{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:15px;
+
+    }
+
+    .btn-nav{
+
+        display:none;
+
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding:120px 25px 70px;
+
+    }
+
+    .hero h1{
+
+        font-size:44px;
+
+        line-height:1.1;
+
+    }
+
+    .hero p{
+
+        font-size:18px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .btn-primary,
+    .btn-secondary{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .speaker-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .speaker-card img{
+
+        height:400px;
+
+    }
+
+    .venue-grid{
+
+        gap:40px;
+
+    }
+
+    .register form{
+
+        width:100%;
+
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width:576px){
+
+    .logo{
+
+        font-size:22px;
+
+    }
+
+    .hero h1{
+
+        font-size:36px;
+
+    }
+
+    section h2{
+
+        font-size:32px;
+
+    }
+
+    .hero-card{
+
+        padding:30px;
+
+    }
+
+    .hero-card h3{
+
+        font-size:24px;
+
+    }
+
+    .event-item{
+
+        font-size:15px;
+
+    }
+
+    #countdown{
+
+        font-size:20px;
+
+    }
+
+    .card{
+
+        padding:30px;
+
+    }
+
+    .timeline-item{
+
+        margin-left:35px !important;
+
+        padding:20px;
+
+    }
+
+    .venue h3{
+
+        font-size:26px;
+
+    }
+
+    .register input{
+
+        padding:16px;
+
+    }
+
+    .register button{
+
+        padding:16px;
+
+    }
+
+    .faq-question{
+
+        font-size:17px;
+
+        padding:20px;
+
+    }
+
+}
+
+/* =========================
+   EXTRA SMALL DEVICES
+========================= */
+
+@media (max-width:390px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    .hero{
+
+        padding-top:100px;
+
+    }
+
+    .hero h1{
+
+        font-size:30px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .btn-primary,
+    .btn-secondary{
+
+        padding:15px;
+
+        font-size:15px;
+
+    }
+
+    .hero-card{
+
+        padding:25px;
+
+    }
+
+    .speaker-card img{
+
+        height:320px;
+
+    }
+
+    footer{
+
+        padding:50px 15px;
+
+    }
+
+}
+
+/* =========================
+   LANDSCAPE PHONES
+========================= */
+
+@media (max-height:600px) and (orientation:landscape){
+
+    .hero{
+
+        min-height:auto;
+
+        padding:120px 5%;
+
+    }
+
+}
